@@ -190,5 +190,5 @@ void webpage(EthernetClient client)
   }
   delay(2000);
 
-  client.println(F("</tbody></body></html>"));
+  client.println(F("</body></html>"));
 }
